@@ -1,16 +1,12 @@
-## Hi there 👋
+```cpp
+#include <string>
 
-<!--
-**tianb2/tianb2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+struct Tianbo {
+  std::string name = "Tianbo Qiu";
+  std::string version = "1.0";
+  bool debug_mode = false;
+  std::string profession = "Software Engineer";
+  std::string vim_config = "https://github.com/tianb2/nvim-config2";
+};
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
